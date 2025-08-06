@@ -1,29 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Aba na Direita</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: row; /* ordem natural: conteúdo à esquerda, aba à direita */
+    }
+
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      height: 100vh;
+      box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* sombra à esquerda da aba */
+    }
+  </style>
 </head>
 <body>
+  <div class="content">
     <body style="background-color:#c99916;"></body>
     <h1 style="color: #5a4202;">The great helmet</h1>
     <h3 style="color:#745502">O que é???</h3>
-    <img src="the great helmet2.png" alt="capacete medieval" width="500">
+    <img src="the great helmet2.png.png" alt="capacete medieval" width="250">
     <h3>Do que é feito:</h3>
     <ul>
         <li style="color:dimgrey">Aço/ferro</li>
         <li style="color:#a37802">Latão/bronze</li>
         <li style="color:saddlebrown">Couro</li>
     </ul>
-    <style>
-        body, html {
-          margin: 0;
-          padding: 0;
-          height: 200vh; /* altura para scroll */
-          overflow-x: hidden;
-        }        
+    <table border>
+        <tr>
+            <td>nivel</td>
+            <td>custo</td>
+            <td>durabilidade</td>
+            <td>defesa</td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>1500G</td>
+            <td>100</td>
+            <td>10</td>
+        </tr>
+
+         <tr>
+            <td>2</td>
+            <td>2000G</td>
+            <td>150</td>
+            <td>20</td>
+        </tr>
+
+    </table>
+      </div>
+
+  <div class="sidebar">
+    <h2>Abas</h2>
+    <p>aqui futuramente tera umagens com mais itens que voce pode clicar para ver as insformaçoes dele</p>
+  </div>
 </body>
-</html>
+
