@@ -2,13 +2,19 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Aba na Direita</title>
+  <title>Aba esquerda</title>
   <style>
+    table, td, th {
+            border:2px solid #5a4202;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       display: flex;
-      flex-direction: row; /* ordem natural: conteúdo à esquerda, aba à direita */
+      flex-direction: row;
     }
 
     .content {
@@ -18,16 +24,26 @@
 
     .sidebar {
       width: 250px;
-      background-color: #f4f4f4;
-      padding: 20px;
+      background-color: #7c620b;
+      padding: 10px;
       height: 100vh;
-      box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* sombra à esquerda da aba */
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* sombra à direita */
     }
+    .tabela-direita {
+            right: 20px;
+        }
   </style>
+
+  <div class="sidebar">
+    <h2>Abas</h2>
+    <p>aqui futuramente tera imagens com mais itens que voce pode clicar para ver as insformaçoes deles :D</p>
+  </div>
+
 </head>
+
 <body>
   <div class="content">
-    <body style="background-color:#c99916;"></body>
+    <body style="background-color:#d19d0f;"></body>
     <h1 style="color: #5a4202;">The great helmet</h1>
     <h3 style="color:#745502">O que é???</h3>
     <img src="the great helmet2.png.png" alt="capacete medieval" width="250">
@@ -37,9 +53,13 @@
         <li style="color:#a37802">Latão/bronze</li>
         <li style="color:saddlebrown">Couro</li>
     </ul>
-    <table border>
+
+    <style>
+        
+    </style>
+    <table>
         <tr>
-            <td>nivel</td>
+            <td>qualidade</td>
             <td>custo</td>
             <td>durabilidade</td>
             <td>defesa</td>
@@ -62,10 +82,12 @@
 
     </table>
       </div>
-
-  <div class="sidebar">
-    <h2>Abas</h2>
-    <p>aqui futuramente tera umagens com mais itens que voce pode clicar para ver as insformaçoes dele</p>
-  </div>
-</body>
-
+      <div class="tabela-direita" margin-left>
+    <table>
+        <tr>
+            <td>
+                coisas? 
+            </td>
+        </tr>
+    </table>
+      </div>
