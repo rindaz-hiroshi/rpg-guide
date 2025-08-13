@@ -24,7 +24,7 @@
 
     .sidebar {
       width: 250px;
-      background-color: #7c620b;
+      background-color: #fddc6e;
       padding: 10px;
       height: 100vh;
       box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* sombra à direita */
@@ -36,6 +36,9 @@
 
   <div class="sidebar">
     <h2>Abas</h2>
+    <a href="botas.html">
+  <img src="R-removebg-preview.png" alt="botas" width="175">
+</a>
     <p>aqui futuramente tera imagens com mais itens que voce pode clicar para ver as insformaçoes deles :D</p>
   </div>
 
@@ -43,10 +46,10 @@
 
 <body>
   <div class="content">
-    <body style="background-color:#d19d0f;"></body>
+    <body style="background-color:#f8d77e;"></body>
     <h1 style="color: #5a4202;">The great helmet</h1>
     <h3 style="color:#745502">O que é???</h3>
-    <img src="the great helmet2.png.png" alt="capacete medieval" width="250">
+    <img src="capacete-removebg-preview.png" alt="capacete medieval" width="250">
     <h3>Do que é feito:</h3>
     <ul>
         <li style="color:dimgrey">Aço/ferro</li>
